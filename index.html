@@ -35,7 +35,7 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 // Game instellingen
-const gridSize = 10; // Grootte van elk blok
+const gridSize = 20; // Grootte van elk blok
 const canvasSize = 400; // Canvas breedte/hoogte
 const gridCount = canvasSize / gridSize;
 
@@ -133,7 +133,7 @@ document.addEventListener("keydown", event => {
 function gameLoop() {
     updateGame();
     drawGame();
-    setTimeout(gameLoop, 80); // Stel snelheid in
+    setTimeout(gameLoop, 100); // Stel snelheid in
 }
 
 // Start de game loop
