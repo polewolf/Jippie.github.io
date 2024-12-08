@@ -14,9 +14,11 @@ body {
 }
 
 #titel {
-    color: #8d8d8d;
+    color: #8f8f8f;
 }
-
+#instructies {
+    color: #8f8f8f;
+}
 canvas {
     border: 2px solid #333;
     background-color: #eee;
@@ -29,7 +31,7 @@ canvas {
 <body>
     <div id="titel">Snake Game</div>
     <canvas id="gameCanvas" width="400" height="400"></canvas>
-    <p>Gebruik de pijltjestoetsen om de slang te besturen.</p>
+    <div id="instructies">Gebruik de pijltjestoetsen om de slang te besturen.</div>
     <script>
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
