@@ -9,3 +9,5 @@
 00 0000 000
 000     00000
 0000000000
+
+check also https://silvijf.github.io/ for a lot more games
