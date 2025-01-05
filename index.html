@@ -1,53 +1,75 @@
 <!Doctype html>
 <html>
-  <head>
-    <title>Polewolf</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
-      @import url('https://github.com/polewolf/polewolf.github.io/raw/refs/heads/main/perpetua.ttf');
-      body{font-family:'perpetua';
-          background-color: #2d2d2d;
-          text-align: center;
-          }
-      #titel{font-size:100px;
-        background-color:black;
-        color:white;
-        width:100%;}
-      #snake{
-            font-family: 'Yuji Mai';
-            position: absolute;
-            top: 200px;
-            width: 100%;
-            left: -1px;
-            background-color: black;
-            color: white;
-            font-size: 300%;
-        }
-      #andere{
-        font-family:'perpetua';
-        color: #fff;
-        background-color: #000;
-        position: absolute;
-        top: 350px;
-        width: 100%;
-        left: -1px;
-        font-size: 250%;
-      }
-      #Fainer2{
-            position: relative;
-            border: 2px solid black;
-            border-radius: 5px;
-            width: 10%;
-            height: 10%;
-            top: 300px;
-            left: 0px;
-        }
-    </style>
-  </head>
+
+<head>
+  <title>Polewolf</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+    @import url('https://github.com/polewolf/polewolf.github.io/raw/refs/heads/main/perpetua.ttf');
+
+    body {
+      font-family: 'perpetua';
+      background-color: #2d2d2d;
+      text-align: center;
+    }
+
+    #titel {
+      font-size: 100px;
+      background-color: black;
+      color: white;
+      width: 100%;
+    }
+
+    #snake {
+      font-family: 'Yuji Mai';
+      position: absolute;
+      top: 200px;
+      width: 100%;
+      left: -1px;
+      background-color: black;
+      color: white;
+      font-size: 300%;
+    }
+
+    #andere {
+      font-family: 'perpetua';
+      color: #fff;
+      background-color: #000;
+      position: absolute;
+      top: 350px;
+      width: 100%;
+      left: -1px;
+      font-size: 250%;
+    }
+
+    .Site {
+      position: relative;
+      border: 2px solid black;
+      border-radius: 5px;
+      width: 150px;
+      height: 150px;
+    }
+
+    #Sitecontainer {
+      position: relative;
+      display: flex;
+      top: 275px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 150px;
+    }
+  </style>
+</head>
+
 <body>
   <div id='titel'>Polewolfs website</div>
   <a href="/snake" id='snake'>Snake</a>
   <div id="andere">andere sites:</div>
-  <a href="https://silvijf.github.io/" id="Fainer"><img src="https://raw.githubusercontent.com/silvijf/silvijf.github.io/refs/heads/main/Content/Icons/logo.ico" id="Fainer2"></a>
+  <div id="Sitecontainer">
+    <a href="https://silvijf.github.io/">
+      <img src="https://raw.githubusercontent.com/silvijf/silvijf.github.io/refs/heads/main/Content/Icons/logo.ico"
+        class="Site"></a>
+  </div>
 </body>
+
 </html>
